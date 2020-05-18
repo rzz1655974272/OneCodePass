@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/getHealthCode/getHealthCode",
+    "pages/correlation/correlation",
+    "pages/user/user",
+    "pages/getPersonCode/getPersonCode",
+    "pages/chooseAddress/chooseAddress",
+    "pages/know/know",
+    "pages/china/china",
+    "pages/global/global",
+    "pages/changeCode/changeCode",
+    
+
+
+    "pages/index/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#57eaa0",
+    "navigationBarTitleText": "一码通",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/getHealthCode/getHealthCode",
+        "text": "首页",
+        "iconPath": "./icons/shouye.png",
+        "selectedIconPath": "./icons/selected-shouye.png"
+      },
+      {
+        "pagePath": "pages/correlation/correlation",
+        "text": "疫情相关",
+        "iconPath": "./icons/xiangguanfenxi.png",
+        "selectedIconPath": "./icons/selected-xiangguanfenxi.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "./icons/gerenzhongxin.png",
+        "selectedIconPath": "./icons/selected-gerenzhongxin.png"
+      }
+  ]
+  }
+
+}

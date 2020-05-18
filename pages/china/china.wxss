@@ -1,0 +1,55 @@
+
+.tital{
+  margin: 20rpx;
+}
+.all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1rpx solid rgb(221, 221, 221);
+}
+.all_top{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  margin: 10rpx 0rpx;
+}
+.all_now{
+  margin: 20rpx 0rpx;
+  text-align: center;
+}
+.all_text_size1{
+  font-size: 30rpx;
+  color: red;
+}
+.all_text_size2{
+  font-size: 20rpx;
+}
+.areaTree{
+  width: 98%;
+  margin: 5rpx 1%;
+}
+.area_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 15rpx 5rpx;
+  border-bottom: 2rpx solid white;
+}
+.title_show{
+  text-align: center;
+  width: 16%;
+}
+.title_show_name{
+  text-align: center;
+  width: 16%;
+  background-color: paleturquoise;
+}
+
+.area_context{
+  display: flex;
+  flex-direction: column;
+  
+}

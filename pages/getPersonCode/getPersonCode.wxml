@@ -1,0 +1,103 @@
+<view class="select">
+	<view class="select_city">
+		<view class="select_left">
+			<text style="color: red">*</text>
+			<text>选择城市</text>
+		</view>
+		<view class="select_right">
+			请选择 >
+		</view>
+	</view>
+	<view class="select_city">
+		<view class="select_left">
+			<text style="color: red">*</text>
+			<text>居住详细地址</text>
+		</view>
+		<view class="select_right">
+			<input placeholder="例：小区-楼栋-单元-室" style="margin-left:-200rpx"></input>
+		</view>
+	</view>
+	<view class="select_city">
+		<view class="select_left">
+			<text style="color: red">*</text>
+			<text>人员类型</text>
+		</view>
+		<view class="select_right" style="margin-left:-250rpx">
+			<radio value="r1" checked="true" />常住
+			<radio value="r2" />租客
+			<radio value="r2" />旅客
+		</view>
+	</view>
+</view>
+
+<view style="margin:10rpx 20rpx;">
+	<text >基本信息</text>
+</view>
+
+<view class="userInfo">
+	<view class="select_city">
+		<view class="select_left">
+			<text style="color: red">*</text>
+			<text>与您的关系</text>
+		</view>
+		<view class="select_right">
+			请选择 >
+		</view>
+	</view>
+
+	<view class="select_city">
+		<view class="select_left">
+			<text style="color: red">*</text>
+			<text>姓名</text>
+		</view>
+		<view class="select_right">
+			<input placeholder="请填写" style="margin-left:210rpx"></input>
+		</view>
+	</view>
+
+	<view class="select_city">
+		<view class="select_left">
+			<text style="color: red">*</text>
+			<text>证件类型</text>
+		</view>
+		<view class="select_right">
+			请选择 >
+		</view>
+	</view>
+
+	<view class="select_city">
+		<view class="select_left">
+			<text style="color: red">*</text>
+			<text>证件号码</text>
+		</view>
+		<view class="select_right">
+			<input placeholder="请填写" style="margin-left:210rpx"></input>
+		</view>
+	</view>
+
+	<view class="select_city">
+		<view class="select_left">
+			<text style="color: red">*</text>
+			<text>联系电话</text>
+		</view>
+		<view class="select_right">
+			<input placeholder="请填写" style="margin-left:210rpx"></input>
+		</view>
+	</view>
+
+  <view class="select_city">
+		<view class="select_left">
+			<text style="color: red">*</text>
+			<text>户籍</text>
+		</view>
+		<view class="select_right">
+			<input placeholder="请填写" style="margin-left:210rpx"></input>
+		</view>
+	</view>
+</view>
+<view style="margin:20rpx 20%">
+  <checkbox value="cb" checked="true"/>本人同意授权查询行程
+  <button size="mini" class="btn_select">查询</button>
+</view>
+
+<button type="primary">申请领取健康码</button>

@@ -1,0 +1,71 @@
+<!-- 个人信息框 -->
+<view class="showUser">
+	<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
+	<block wx:else>
+		<view class="showUser_info">
+			<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+			<view class="userInfo_text">
+				<view>昵称：{{userInfo.nickName}}</view>
+				<view>城市:{{userInfo.city}}</view>
+			</view>
+		</view>
+	</block>
+</view>
+
+<view class="main_his_wrap">
+	<navigator url="">
+		<view class="his_num">0</view>
+		<view class="his_name">健康码包</view>
+	</navigator>
+	<navigator url="">
+		<view class="his_num">0</view>
+		<view class="his_name">我的收藏</view>
+	</navigator>
+	<navigator url="">
+		<view class="his_num">0</view>
+		<view class="his_name">浏览足迹</view>
+	</navigator>
+</view>
+
+<view class="cardBag">
+
+	<view class="name">
+		<view>
+    <text style="color:white;font-size=60rpx">张三</text>
+		</view>
+    <view>
+    <image mode="widthFix" src="/icons/erweima.png" style="width:70rpx;margin-top:-10rpx"></image>
+    </view>
+		<view style="margin-left:300rpx">
+    <text style="color:white;font-size=60rpx">解除绑定×</text>
+			
+		</view>
+	</view>
+
+	<view class="card">
+  <text style="color:white;font-size=60rpx">360122********2222</text>
+		
+	</view>
+
+	<view class="write">
+		<view class="write_left">
+    <text style="color:white;font-size=60rpx">可正常通行</text>
+		
+		</view>
+		<view class="write_right">
+    <text style="color:white;font-size=60rpx">修改信息></text>
+			
+		</view>
+	</view>
+
+</view>
+<view class="main_info_wrap">
+	<view class="app_info_item">更多个人信息</view>
+	<view class="app_info_item app_info_contact">
+		<text>联系客服</text>
+		<text>400-618-4000</text>
+	</view>
+	<navigator url="/pages/feedback/feedback" class="app_info_item">意见反馈</navigator>
+	<view class="app_info_item">关于我们</view>
+</view>
+<view class="main_recommend_wrap">把应用推荐给其他人</view>

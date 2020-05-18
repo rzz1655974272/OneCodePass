@@ -1,0 +1,70 @@
+<!-- 轮播图 -->
+<swiper indicator-dots autoplay circular interval="3000">
+	<swiper-item>
+		<image mode="widthFix" src="/icons/kangyi1.jpg"></image>
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="/icons/kangyi2.png"></image>
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="/icons/kangyi3.png"></image>
+	</swiper-item>
+</swiper>
+
+<view class="show_all">
+	<text style="color:lime"> /疫情了解/ </text>
+	<view class="show_know">
+		<view class="show_img1">
+			<image mode="widthFix" style="width:150rpx;margin-left:25rpx;margin-top:30rpx" src="/icons/zhishi.png"></image>
+			<text>新冠肺炎的病理知识</text>
+		</view>
+		<view class="show_img234">
+			<view class="show_img23">
+				<view class="show_img2">
+					<image mode="widthFix" style="width:120rpx;margin-left:50rpx;" src="/icons/tishi.png"></image>
+					<text>温馨小提示</text>
+				</view>
+				<view class="show_img3">
+					<image mode="widthFix" style="width:120rpx;margin-left:50rpx;" src="/icons/dongtai.png"></image>
+					<text style="margin-left:25rpx">疫情动态</text>
+				</view>
+			</view>
+			<view class="show_img4">
+				<image mode="widthFix" style="width:150rpx;margin-left:30rpx;" src="/icons/yaoyanheji.png"></image>
+				<text>谣言鉴别</text>
+			</view>
+		</view>
+
+	</view>
+
+	<text style="color:red">/疫情查询与统计/</text>
+	<view class="show_know">
+		<view class="show_img1">
+			<image mode="widthFix" style="width:150rpx;margin-left:25rpx;margin-top:30rpx" src="/icons/didian.png"></image>
+			<text>确诊地点和小区查询</text>
+		</view>
+		<view class="show_img234">
+			<view class="show_img23">
+				<view class="show_img2">
+					<navigator url="../china/china">
+						<image mode="widthFix" style="width:120rpx;margin-left:50rpx;" src="/icons/guonei.png"></image>
+						<text style="margin-left:25rpx">国内疫情</text>
+					</navigator>
+
+				</view>
+				<view class="show_img3">
+					<navigator url="../global/global">
+						<image mode="widthFix" style="width:120rpx;margin-left:50rpx;" src="/icons/quanqiu.png"></image>
+						<text style="margin-left:25rpx">全球疫情</text>
+					</navigator>
+
+				</view>
+			</view>
+			<view class="show_img4">
+				<image mode="widthFix" style="width:150rpx;margin-left:30rpx;margin-top:40rpx" src="/icons/huoche.png"></image>
+				<text>同乘查询</text>
+			</view>
+		</view>
+
+	</view>
+</view>

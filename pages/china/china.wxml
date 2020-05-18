@@ -1,0 +1,85 @@
+<view class="tital">
+	<view>
+		<text style="font-size:40rpx">国内疫情</text>
+	</view>
+	<text style="font-size:25rpx;color: rgb(201, 201, 201)">疫情数据更新至：{{list.lastUpdateTime}}</text>
+</view>
+
+<view class="all">
+	<view class="all_top">
+		<view class="all_now">
+			<view class="all_text">现有确诊</view>
+			<view><text class=".all_text_size1">{{list.chinaTotal.nowConfirm}}</text></view>
+			<view><text class=".all_text_size2">昨日{{list.chinaAdd.nowConfirm}}</text> </view>
+		</view>
+		<view class="all_now">
+			<view>无症状</view>
+			<view><text class=".all_text_size1">{{list.chinaTotal.noInfect}}</text></view>
+			<view><text class=".all_text_size2">昨日+{{list.chinaAdd.noInfect}}</text></view>
+		</view>
+		<view class="all_now">
+			<view>现有疑似</view>
+			<view><text class=".all_text_size1">{{list.chinaTotal.suspect}}</text></view>
+			<view><text class=".all_text_size2">昨日+{{list.chinaTotal.suspect}}</text></view>
+		</view>
+		<view class="all_now">
+			<view>现有重症</view>
+			<view><text class=".all_text_size1">{{list.chinaTotal.nowSevere}}</text></view>
+			<view><text class=".all_text_size2">昨日{{list.chinaAdd.nowSevere}}</text></view>
+		</view>
+	</view>
+	<view class="all_top">
+		<view class="all_now">
+			<view>累计确诊</view>
+			<view><text class=".all_text_size1">{{list.chinaTotal.confirm}}</text></view>
+			<view><text class=".all_text_size2">昨日+{{list.chinaAdd.confirm}}</text></view>
+		</view>
+		<view class="all_now">
+			<view>境外输入</view>
+			<view><text class=".all_text_size1">{{list.chinaTotal.importedCase}}</text></view>
+			<view><text class=".all_text_size2">昨日+{{list.chinaAdd.importedCase}}</text></view>
+		</view>
+		<view class="all_now">
+			<view>累计治愈</view>
+			<view><text class=".all_text_size1">{{list.chinaTotal.heal}}</text></view>
+			<view><text class=".all_text_size2">昨日+{{list.chinaAdd.heal}}</text></view>
+		</view>
+		<view class="all_now">
+			<view>累计死亡</view>
+			<view><text class=".all_text_size1">{{list.chinaTotal.dead}}</text></view>
+			<view><text class=".all_text_size2">昨日+{{list.chinaAdd.dead}}</text></view>
+		</view>
+	</view>
+</view>
+
+<view class="tital">
+	<view>
+		<text style="font-size:40rpx">国内各地区疫情统计汇总</text>
+	</view>
+	<text style="font-size:25rpx;color: rgb(201, 201, 201)">7:00-10:00为更新高峰，数据若滞后敬请谅解</text>
+</view>
+
+<!-- 省份 -->
+<view class="areaTree">
+	<!-- 标题 -->
+	<view class="area_title">
+		<view class="title_show">疫区</view>
+		<view class="title_show">新增</view>
+		<view class="title_show">现有</view>
+		<view class="title_show">累计</view>
+		<view class="title_show">治愈</view>
+		<view class="title_show">死亡</view>
+	</view>
+	<!-- 具体内容 -->
+
+	<view class="area_context" wx:for="{{list.areaTree[0].children}}" wx:for-item="item" wx:key="name">
+		<view class="area_title">
+			<view class="title_show_name">{{item.name}}</view>
+			<view class="title_show">{{item.today.confirm}}</view>
+			<view class="title_show">{{item.total.nowConfirm}}</view>
+			<view class="title_show">{{item.total.confirm}}</view>
+			<view class="title_show">{{item.total.heal}}</view>
+			<view class="title_show">{{item.total.dead}}</view>
+		</view>
+	</view>
+</view>

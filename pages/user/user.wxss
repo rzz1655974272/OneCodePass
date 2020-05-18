@@ -1,0 +1,100 @@
+/**index.wxss**/
+page {
+  background-color: #93eafb;
+}
+.showUser{
+  display: flex;
+  flex-direction: row;
+  background-color: azure;
+  margin-top: 10rpx 20rpx;
+  border: 1rpx solid lavender;
+  border-radius: 10rpx;
+
+
+}
+.showUser_info{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+}
+.userInfo_text{
+  margin-top: 35rpx;
+  margin-left: 10rpx;
+
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx 40rpx;
+  border-radius: 50%;
+}
+.main_his_wrap{
+  display: flex;
+  flex-direction: row;
+  margin: 10rpx 30rpx;
+  background-color: white;
+}
+.main_his_wrap navigator{
+  
+  margin-left: 70rpx;
+  /* border: 1rpx solid lavender; */
+ 
+}
+.his_num{
+  color: red;
+  margin-left: 50rpx;
+}
+.his_name{
+  align-items: center;
+}
+
+.main_info_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+.main_info_wrap .app_info_item {
+  padding: 20rpx ;
+  border-bottom: 1rpx solid #ccc;
+}
+.main_info_wrap .app_info_contact {
+  display: flex;
+  justify-content: space-between;
+}
+.main_recommend_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx ;
+}
+.cardBag{
+  background-color: rgb(14, 235, 95);
+  margin: 25rpx 50rpx;
+  width: 650rpx;
+  height: 300rpx;
+
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx;
+}
+.card{
+  margin-left: 20rpx;
+  margin-bottom: 100rpx;
+}
+
+.write{
+  display: flex;
+  flex-direction: row;
+}
+.write_left{
+  border-radius: 5rpx;
+  margin-left: 20rpx;
+  background-color: rgba(3, 221, 10, 0.947);
+}
+
+.write_right{
+  margin-left: 280rpx;
+}

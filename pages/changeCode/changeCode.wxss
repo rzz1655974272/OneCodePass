@@ -1,0 +1,42 @@
+page {
+  background-color: #93eafb;
+}
+input{
+  height: 100rpx;
+  border: 1rpx solid whitesmoke;
+  margin: 30rpx;
+}
+image {
+  width: 50%;
+  height: 50%;
+  margin-top: 20rpx;
+  margin-left: 25%;
+}
+
+.title {
+  text-align: center;
+  font-size: 36rpx;
+  margin: 40rpx 0rpx;
+}
+
+.img {
+  width: 80%;
+  height: 550rpx;
+  margin: 0rpx 10%;
+  background-color: white;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.name{
+  margin-bottom: 20rpx;
+  font-size: 40rpx;
+}
+.name1{
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+}

@@ -1,0 +1,27 @@
+<view class="all" style="background:url('/icons/background1.jpg')">
+	<!-- 图片 -->
+	<view class="img">
+		<image mode="widthFix" src="/icons/logo3.png"></image>
+	</view>
+	<!-- 健康码转换 -->
+	
+	<view class="changeCode">
+		<image mode="widthFix" src="/icons/zhuanhuan.png"></image>
+		<navigator url="../changeCode/changeCode">
+		<view class="changeCode_title">{{changeCode}}</view>
+			</navigator>
+	</view>
+
+	
+	<!-- 申领健康码 -->
+	<view class="getCode" wx:for="{{getCodeList}}" wx:for-item="item1" wx:key="id">
+		<image mode="widthFix" src="{{item1.imgSrc}}"></image>
+		<navigator url="../getPersonCode/getPersonCode">
+			<view>
+				<view class="getCode_title">{{item1.title}}</view>
+				<text>{{item1.detail}}</text>
+			</view>
+		</navigator>
+
+	</view>
+</view>

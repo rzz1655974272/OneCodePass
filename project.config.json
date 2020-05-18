@@ -1,0 +1,125 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.11.0",
+	"appid": "wxb84b7314404b0d1d",
+	"projectname": "OneCodePass",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "选择城市",
+					"pathName": "pages/chooseAddress/chooseAddress",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "疫情相关",
+					"pathName": "pages/correlation/correlation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/getHealthCode/getHealthCode",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "申请个人码",
+					"pathName": "pages/getPersonCode/getPersonCode",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "病理知识",
+					"pathName": "pages/know/know",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "国内疫情",
+					"pathName": "pages/china/china",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全球疫情",
+					"pathName": "pages/global/global",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "健康码转换",
+					"pathName": "pages/changeCode/changeCode",
+					"scene": null
+				}
+			]
+		}
+	}
+}
