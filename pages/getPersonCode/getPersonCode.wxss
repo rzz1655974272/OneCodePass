@@ -33,6 +33,5 @@ page {
 }
 .btn_select{
   margin: 10rpx 35%;
-  
   border: 1rpx solid chartreuse;
 }

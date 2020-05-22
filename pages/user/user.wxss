@@ -82,7 +82,7 @@ page {
 }
 .card{
   margin-left: 20rpx;
-  margin-bottom: 100rpx;
+  margin-bottom: 80rpx;
 }
 
 .write{

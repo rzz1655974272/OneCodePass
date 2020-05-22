@@ -1,33 +1,33 @@
-// pages/changeCode/changeCode.js
+// pages/news/news.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    index:0,
-    inputValue:"",
-    address:""
+    newsList:[]
   },
 
-  change(){
-    var that = this;
-    that.setData({ 
-      index: that.data.index + 1,
-      address:that.data.inputValue
-    });
-    
-  },
-  bindKeyInput: function (e) {
-    this.setData({
-      inputValue: e.detail.value
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var self = this
+    wx.request({
+      // url: 'https://api.inews.qq.com/newsqa/v1/query/pubished/daily/list?country=%E4%BC%8A%E6%9C%97&', 
+      
+      url: 'http://api.tianapi.com/txapi/rumour/index?key=e03827e5463f8d720c696d81546e0b82',
 
+      success (res) {
+        console.log(res.data)
+        // console.log(JSON.parse(res.data))
+        // console.log(JSON.parse(res.data.data).lastUpdateTime)
+        self.setData({
+          newsList:res.data.newslist
+        })
+      }
+      
+    })
   },
 
   /**

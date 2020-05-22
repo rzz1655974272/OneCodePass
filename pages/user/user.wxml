@@ -14,7 +14,7 @@
 
 <view class="main_his_wrap">
 	<navigator url="">
-		<view class="his_num">0</view>
+		<view class="his_num">1</view>
 		<view class="his_name">健康码包</view>
 	</navigator>
 	<navigator url="">
@@ -31,30 +31,33 @@
 
 	<view class="name">
 		<view>
-    <text style="color:white;font-size=60rpx">张三</text>
+			<text style="color:white;font-size=60rpx">张三</text>
 		</view>
-    <view>
-    <image mode="widthFix" src="/icons/erweima.png" style="width:70rpx;margin-top:-10rpx"></image>
-    </view>
+		<navigator url="../changeCode/changeCode">
+			<view>
+				<image mode="widthFix" src="/icons/erweima.png" style="width:70rpx;margin-top:-10rpx"></image>
+			</view>
+		</navigator>
+
 		<view style="margin-left:300rpx">
-    <text style="color:white;font-size=60rpx">解除绑定×</text>
-			
+			<text style="color:white;font-size=60rpx">解除绑定×</text>
+
 		</view>
 	</view>
 
 	<view class="card">
-  <text style="color:white;font-size=60rpx">360122********2222</text>
-		
+		<text style="color:white;font-size=60rpx">360122********2222</text>
+
 	</view>
 
 	<view class="write">
 		<view class="write_left">
-    <text style="color:white;font-size=60rpx">可正常通行</text>
-		
+			<text style="color:white;font-size=60rpx">可正常通行</text>
+
 		</view>
 		<view class="write_right">
-    <text style="color:white;font-size=60rpx">修改信息></text>
-			
+			<text style="color:white;font-size=60rpx">修改信息></text>
+
 		</view>
 	</view>
 
@@ -63,9 +66,9 @@
 	<view class="app_info_item">更多个人信息</view>
 	<view class="app_info_item app_info_contact">
 		<text>联系客服</text>
-		<text>400-618-4000</text>
+		<text>400-123-1234</text>
 	</view>
 	<navigator url="/pages/feedback/feedback" class="app_info_item">意见反馈</navigator>
 	<view class="app_info_item">关于我们</view>
 </view>
-<view class="main_recommend_wrap">把应用推荐给其他人</view>
+<view class="main_recommend_wrap" >把应用推荐给其他人</view>

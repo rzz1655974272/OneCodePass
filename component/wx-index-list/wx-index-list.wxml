@@ -18,6 +18,7 @@
                 <view class='list-title fixed-title-hock'>我的位置</view>
                 <view class='list-horizontal'>
                     <view class='list-name {{idx === 0 ?"":"border"}}' data-detail="{{city}}" catchtap='locationMt'>
+                    
                         {{myCity}}
                     </view>
                 </view>
@@ -27,7 +28,8 @@
                 <view class='list-title fixed-title-hock'>{{item.title}}</view>
                 <view class='{{config.horizontal&&item.type==="hot" || item.type==="hot"?"list-horizontal":""}}'>
                     <view class='list-name {{idx === 0 ?"":"border"}}' wx:for="{{item.item}}" wx:for-item="city" wx:for-index="idx" wx:key="city" data-detail="{{city}}" catchtap='detailMt'>
-                        {{city.name}}
+                    <navigator url="../getPersonCode/getPersonCode">{{city.name}}</navigator>
+                        
                     </view>
                 </view>
             </view>

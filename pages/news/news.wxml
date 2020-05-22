@@ -1,0 +1,17 @@
+<view class="top">
+<text>谣言鉴别</text>
+</view>
+<view class="all" wx:for="{{newsList}}" wx:for-item="item" wx:key="id">
+	<view class="title">{{item.title}}</view>
+	<view class="author">原作者：{{item.author}}</view>
+	<view class="date">日期：{{item.date}}</view>
+	<view class="desc">描述：{{item.desc}}</view>
+	<view class="img">
+		<image mode="widthFix" src="{{item.imgsrc}}" style="width:300rpx"></image>
+    <view class="explain">
+    <text>{{item.explain}}</text>
+    </view>
+		
+	</view>
+
+</view>

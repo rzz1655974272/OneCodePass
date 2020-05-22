@@ -8,17 +8,19 @@
 			<view class="name">张三</view>
 			<view class="name1">360122********2222</view>
 
-			<view class="name1" wx:if="{{index%2==0}}">江西省南昌市</view>
-			<view class="name1" wx:else>江西省赣州市</view>
+			<view class="name1" wx:if="{{address==''}}">江西省南昌市</view>
+			<view class="name1" wx:else>{{address}}</view>
 		</view>
-
 
 	</view>
 	<view style="margin:20rpx">请您妥善保管，切勿转借给他人使用</view>
 	<view>
 
-		<input placeholder="例：江西省南昌市" wx:if="{{index%2==0}}"></input>
-		<input placeholder="例：江西省赣州市" wx:else></input>
+		<!-- <input bindinput="bindKeyInput" placeholder="例：江西省南昌市" wx:if="{{index%2==0}}"></input>
+		<input placeholder="例：江西省赣州市" wx:else></input> -->
+
+			<input bindinput="bindKeyInput" placeholder="例：江西省南昌市"></input>
+
 		<button bindtap="change">转换</button>
 		<view style="margin:20rpx;font_size:20rpx;color:red">健康码转换功能：输入目的城市，即可将当前健康码转化为对应城市的健康码</view>
 	</view>

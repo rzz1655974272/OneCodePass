@@ -1,0 +1,42 @@
+page {
+  background-color: #93eafb;
+}
+
+.top{
+  margin:20rpx 25%;
+  text-align: center;
+  width: 50%;
+  height: 80rpx;
+  background-color: whitesmoke;
+  font-size: 50rpx;
+ 
+}
+.all{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 10rpx 20rpx;
+}
+.title{
+  font-size: 40rpx;
+  color:darkgoldenrod;
+  align-items: center;
+}
+.author{
+  font-size: 20rpx;
+  color: rgba(114, 112, 112, 0.727);
+}
+.date{
+  font-size: 20rpx;
+  color: rgba(114, 112, 112, 0.727);
+  margin-bottom: 10rpx;
+}
+.img{
+  height: 200rpx;
+}
+.explain{
+  color: red;
+  font-size: 40rpx;
+  margin-top: -130rpx;
+  margin-left: 60%;
+}

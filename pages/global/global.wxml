@@ -9,23 +9,23 @@
 	<view class="all_top">
 		<view class="all_now">
 			<view class="all_text">累计确诊</view>
-			<view><text class=".all_text_size1">4805489</text></view>
-			<view><text class=".all_text_size2">昨日+34458</text> </view>
+			<view><text class=".all_text_size1">5109272</text></view>
+			<view><text class=".all_text_size2">昨日+108536</text> </view>
 		</view>
 		<view class="all_now">
 			<view>现有确诊</view>
-			<view><text class=".all_text_size1">2632570</text></view>
-			<view><text class=".all_text_size2">昨日+7493</text></view>
+			<view><text class=".all_text_size1">2777309</text></view>
+			<view><text class=".all_text_size2">昨日+40931</text></view>
 		</view>
 		<view class="all_now">
 			<view>累计死亡</view>
-			<view><text class=".all_text_size1">316075</text></view>
-			<view><text class=".all_text_size2">昨日+1355</text></view>
+			<view><text class=".all_text_size1">329969</text></view>
+			<view><text class=".all_text_size2">昨日+5267</text></view>
 		</view>
 		<view class="all_now">
 			<view>累计治愈</view>
 			<view><text class=".all_text_size1">1856844</text></view>
-			<view><text class=".all_text_size2">昨日+25610</text></view>
+			<view><text class=".all_text_size2">昨日+2001994</text></view>
 		</view>
 	</view>
 </view>

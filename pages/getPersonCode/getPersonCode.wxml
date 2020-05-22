@@ -5,8 +5,13 @@
 			<text>选择城市</text>
 		</view>
 		<view class="select_right">
-			请选择 >
+			<button bindtap="choose_add" style="height:60rpx;background-color:white;margin-top:-15rpx; margin-right:-100rpx">
+				<navigator url="../chooseAddress/chooseAddress">
+					请选择 >
+				</navigator>
+			</button>
 		</view>
+		
 	</view>
 	<view class="select_city">
 		<view class="select_left">
@@ -85,7 +90,7 @@
 		</view>
 	</view>
 
-  <view class="select_city">
+	<view class="select_city">
 		<view class="select_left">
 			<text style="color: red">*</text>
 			<text>户籍</text>
@@ -96,8 +101,8 @@
 	</view>
 </view>
 <view style="margin:20rpx 20%">
-  <checkbox value="cb" checked="true"/>本人同意授权查询行程
-  <button size="mini" class="btn_select">查询</button>
+	<checkbox value="cb" checked="true" />本人同意授权查询行程
+	<button size="mini" class="btn_select">查询</button>
 </view>
 
 <button type="primary">申请领取健康码</button>

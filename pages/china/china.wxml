@@ -20,12 +20,13 @@
 		<view class="all_now">
 			<view>现有疑似</view>
 			<view><text class=".all_text_size1">{{list.chinaTotal.suspect}}</text></view>
-			<view><text class=".all_text_size2">昨日+{{list.chinaTotal.suspect}}</text></view>
+			<!-- <view><text class=".all_text_size2">昨日+{{list.chinaTotal.suspect}}</text></view> -->
+			<view><text class=".all_text_size2">昨日+1</text></view>
 		</view>
 		<view class="all_now">
 			<view>现有重症</view>
 			<view><text class=".all_text_size1">{{list.chinaTotal.nowSevere}}</text></view>
-			<view><text class=".all_text_size2">昨日{{list.chinaAdd.nowSevere}}</text></view>
+			<view><text class=".all_text_size2">昨日+{{list.chinaAdd.nowSevere}}</text></view>
 		</view>
 	</view>
 	<view class="all_top">

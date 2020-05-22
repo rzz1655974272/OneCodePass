@@ -1,18 +1,18 @@
 <!-- 轮播图 -->
 <swiper indicator-dots autoplay circular interval="3000">
 	<swiper-item>
-		<image mode="widthFix" src="/icons/kangyi1.jpg"></image>
+		<image mode="widthFix" src="https://ae01.alicdn.com/kf/Hb5fec283f6014e0cb7c5a237148ee6bcr.jpg"></image>
 	</swiper-item>
 	<swiper-item>
-		<image mode="widthFix" src="/icons/kangyi2.png"></image>
+		<image mode="widthFix" src="https://ae01.alicdn.com/kf/H274334d0cf1648f78953700719637235i.jpg"></image>
 	</swiper-item>
 	<swiper-item>
-		<image mode="widthFix" src="/icons/kangyi3.png"></image>
+		<image mode="widthFix" src="https://ae01.alicdn.com/kf/H0c757230fa2b4fea8986bc37b1c838c3i.jpg"></image>
 	</swiper-item>
 </swiper>
 
 <view class="show_all">
-	<text style="color:lime"> /疫情了解/ </text>
+	<text style="color:bisque"> /疫情了解/ </text>
 	<view class="show_know">
 		<view class="show_img1">
 			<image mode="widthFix" style="width:150rpx;margin-left:25rpx;margin-top:30rpx" src="/icons/zhishi.png"></image>
@@ -22,7 +22,7 @@
 			<view class="show_img23">
 				<view class="show_img2">
 					<image mode="widthFix" style="width:120rpx;margin-left:50rpx;" src="/icons/tishi.png"></image>
-					<text>温馨小提示</text>
+					<text>温馨提示</text>
 				</view>
 				<view class="show_img3">
 					<image mode="widthFix" style="width:120rpx;margin-left:50rpx;" src="/icons/dongtai.png"></image>
@@ -30,8 +30,10 @@
 				</view>
 			</view>
 			<view class="show_img4">
-				<image mode="widthFix" style="width:150rpx;margin-left:30rpx;" src="/icons/yaoyanheji.png"></image>
-				<text>谣言鉴别</text>
+				<navigator url="../news/news">
+					<image mode="widthFix" style="width:150rpx;margin-left:30rpx;" src="/icons/yaoyanheji.png"></image>
+					<text>谣言鉴别</text>
+				</navigator>
 			</view>
 		</view>
 

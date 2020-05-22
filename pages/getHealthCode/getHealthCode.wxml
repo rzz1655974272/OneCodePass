@@ -1,7 +1,7 @@
-<view class="all" style="background:url('/icons/background1.jpg')">
+<view class="all" style="background:url('https://ae01.alicdn.com/kf/He3e1780099044f039055329385447ab0N.jpg')">
 	<!-- 图片 -->
 	<view class="img">
-		<image mode="widthFix" src="/icons/logo3.png"></image>
+		<image mode="widthFix" src="https://ae01.alicdn.com/kf/H745b50d4da6648e0a7e62f04c63568c0s.jpg"></image>
 	</view>
 	<!-- 健康码转换 -->
 	
